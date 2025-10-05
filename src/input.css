@@ -1,0 +1,17 @@
+@import "tailwindcss";
+/* @import "@splidejs/splide/css"; */
+
+@theme {
+    --default-font-family: "Roboto", sans-serif;
+}
+
+.floating-label{
+    input:focus,
+    input:not(:focus):valid,
+    textarea:focus,
+    textarea:not(:focus):valid{
+        & ~ label{
+            @apply text-xs -top-3
+        }
+    }
+}
