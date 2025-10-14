@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     try {
         $mail->isSMTP();
-        $mail->Host       = 'nichogo-osobistogo.com.ua';
+        $mail->Host       = 'lgbt.nichogo-osobistogo.com.ua';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'alexey.kuliw@nichogo-osobistogo.com.ua';
         $mail->Password   = 'Mamanegorui2012';
